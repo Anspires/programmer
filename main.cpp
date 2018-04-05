@@ -9,6 +9,7 @@
 #include "mytemplate.h"
 #include"singleton.h"
 #include "arraySearch.h"
+#include "myprogrameralgo.h"
 #define CONVERT2STR(str) #str
 typedef struct desc_struct
 {
@@ -46,6 +47,9 @@ bool findNum(int *data,int length,int value)
 int arraydata[] = {1,2,5,10,MAX_VALUE};
 int main()
 {
+    int p[5] = {1,5,8,9,10};
+    int q = CUT_ROD(p,5);
+    printf("q = %d\n",q);
 	ShowResult(arraydata,sizeof(arraydata)/sizeof(int));
 	int Money=3;
     int coin[]={4,5,7};
