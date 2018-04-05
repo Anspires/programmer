@@ -1,0 +1,4 @@
+file:e:\vs2010test\test\test\main.cpp:line_number:20:MMM
+file:e:\vs2010test\test\test\main.cpp:line_number:21:NNN
+file:e:\vs2010test\test\test\main.cpp:line_number:20:MMM
+file:e:\vs2010test\test\test\main.cpp:line_number:21:NNN
