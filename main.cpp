@@ -39,17 +39,17 @@ bool findNum(int *data,int length,int value)
 	int i = 0;
 	for(i = 0;i < length;i++)
 	{
-		
+
 	}
 	return false;
 }
-int arraydata[] = {1,2,5,10,MAX_VALUE};  
+int arraydata[] = {1,2,5,10,MAX_VALUE};
 int main()
 {
-	ShowResult(arraydata,sizeof(arraydata)/sizeof(int)); 
-	int Money=3;  
-    int coin[]={4,5,7};  
-    FindMin(Money,coin,3); 
+	ShowResult(arraydata,sizeof(arraydata)/sizeof(int));
+	int Money=3;
+    int coin[]={4,5,7};
+    FindMin(Money,coin,3);
 	int set[3] = {7,5,4};
 	printf("return = %d\n",arraySearch(20,3,set));
 	int iii = 3;
@@ -121,7 +121,7 @@ int main()
 	printf("virtual table address = 0x%08x\n",(int *)(*(int *)(&stock1)));
 	printf("first virtual table address = 0x%08x\n",(int *)(*(int *)(*(int *)(&stock1))));
 	printf("m_value = %d\n",get_class_value(stock1));
-	
+
 	double a = exp(-2.0 * SUL_PI *100.0 * 0.0004) - 1;
 	double b = exp(-2.0 * SUL_PI *100.0 * 0.0004);
 	printf("sizeof(long long) = %d\n",sizeof(long long));
@@ -131,11 +131,11 @@ int main()
 	printf("temp.c_str() = %s\n",tempstr.c_str());
 	//printf("temp.size() = %d\n",string::npos);
 	printf("temp.find() = %d\n",tempstr.find("c"));
-	
+
 	struct bitStruct data;
 	printf("convert2str(get set) = %s\n",CONVERT2STR(get set));
 	printf("sizeof(data) = %d\n",sizeof(data));
-	
+
 	NODE *head = NULL;
 	NODE *temp = NULL;
 	head = create_list(2);
